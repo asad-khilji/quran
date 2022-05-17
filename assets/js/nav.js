@@ -4,7 +4,9 @@ const createNav = () => {
     nav.innerHTML = `
     <nav>
         <a href="Quran.html">Quran</a>
+        <a href="Hadiths.html">Hadith</a>
         <a href=#">Seerah</a>
+        <a href="#">Arabic</a>
         <a href="Books.html">Islamic Books</a>
     </nav>
     `;
