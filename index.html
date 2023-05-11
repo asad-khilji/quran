@@ -5,20 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quran</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./search.css">
 </head>
 <body>
 
-    <header>
-        <a href="index.html"><h1>Quran</h1></a>
-    </header>
+<header>
+    
+    <!-- input tag -->
+    <input id="searchbar" onkeyup="search_animal()" type="text"
+        name="search" placeholder="Search ...">
+      
+   </header> 
 
-    <main>
+ <main>
 
-    <a href="Surah-Al-Fatihah.html"><h2>Surah Al Fatihah</h2></a>
-    <a href="Surah-Al-Baqarah.html"><h2>Surah Al Baqarah</h2></a>
+    <!-- ordered list -->
+    <ol id='list'>
+        <a href="Surah-Al-Fatihah.html"><li class="animals">Surah Al Fatihah</li></a>
+        <a href="Surah-Al-Baqarah.html"><li class="animals">Surah Al Baqarah</li></a>
+    </ol>
 
-    </main>
+</main>
+
+    <script src="./script.js"></script>
     
 </body>
 </html>
